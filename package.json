@@ -1,11 +1,27 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "mongoose": "^6.1.4",
-    "mongoose-slug-plugin": "^2.1.0"
+    "mongoose-slug-plugin": "^2.1.0",
+    "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node app.js"
-  }
+    "start": "nodemon"
+  },
+  "name": "task-express-advancedmiddleware-sp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Statcomm/TASK-Express-AdvancedMiddleware-SP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Statcomm/TASK-Express-AdvancedMiddleware-SP/issues"
+  },
+  "homepage": "https://github.com/Statcomm/TASK-Express-AdvancedMiddleware-SP#readme",
+  "description": ""
 }
